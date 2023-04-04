@@ -9,8 +9,16 @@ body{
 
 h1 {
     font-family: Montserrat-Black;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+h3{
+    font-family: Montserrat-Bold;
 }
 
 .container-fluid{
@@ -43,5 +51,29 @@ h1 {
     margin: 5% 3% 5% 0;
 }
 
+/* title image */
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+}
 
-/* lec-76 and 14min */
+/* feature-section */
+
+#features{
+    padding: 7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* start section 7 of Angella U */
